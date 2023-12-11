@@ -13,7 +13,6 @@ body {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    border: 1px solid;
 
     .container {
         display: flex;
@@ -33,7 +32,7 @@ body {
             margin: 10px;
             transition: flex 0.7s ease-in;
 
-            > h3 {
+            >h3 {
                 position: absolute;
                 left: 20px;
                 bottom: 20px;
@@ -46,7 +45,7 @@ body {
             &.active {
                 flex: 5;
 
-                > h3 {
+                >h3 {
                     opacity: 1;
                     text-shadow: 2px 2px 3px #000;
                     transition: opacity 0.3s;
@@ -62,14 +61,14 @@ body {
 
         .panel {
             &.active {
-                > h3 {
+                >h3 {
                     font-size: 18px;
                 }
             }
         }
 
         #zoldyck-killua {
-            background-image: url('../images/zoldyck-killua.jpg')!important;
+            background-image: url('../images/zoldyck-killua.jpg') !important;
         }
 
         #satoru-gojo {
@@ -90,7 +89,7 @@ body {
     .container {
         .panel {
             &.active {
-                > h3 {
+                >h3 {
                     font-size: 12px;
                 }
             }
