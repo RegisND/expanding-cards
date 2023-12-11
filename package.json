@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "My first project using HTML5, CSS3 and JavaScript",
   "main": "expanding-cards.html",
-  "homepage": "https://regisnd.github.io/expanding-cards",
   "scripts": {
-    "deploy": "gh-pages -d docs"
+  
   },
   "author": "Reginaldo Dias",
   "license": "MIT",
